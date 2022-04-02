@@ -1,12 +1,12 @@
 ---
-title: 'test Post'
-date: 'March 30 2022'
-exerpt: 'TEST EXERPT'
-cover_image: '/images/posts/img1.jpg'
+title: 'April post'
+date: 'April 2 2022'
+exerpt: 'This blog has been deployed to Vercel'
+cover_image: '/images/posts/GS_Logo.png'
 ---
-## Heading 2
+## Today's Agenda and progress brief
 
-* Item 1
-* Item 2
+* Deployment activated
+* How to add blog posts and images
 
-Hello blogosphere
+Looks like I have to edit the .md files, then put the cover image in the images folder, reference it here, push to github... profit?

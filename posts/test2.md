@@ -2,7 +2,6 @@
 title: 'test 2'
 date: 'March 30 2022'
 exerpt: 'TEST TOOOO EXERPT'
-cover_image: '/images/posts/img2.jpg'
 ---
 ## Heading 2
 
