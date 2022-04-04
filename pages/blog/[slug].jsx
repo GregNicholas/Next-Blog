@@ -8,9 +8,6 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
 	
 	return (
 		<>
-		  <Link href='/'>
-			<a className="btn btn-back">Go Back</a>
-		  </Link>
 		  <div className="card card-page">
 			<h1 className="post-title">{title}</h1>
 			<div className="post-date">Posted on {date}</div>
@@ -19,6 +16,9 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
 				<div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
 			</div>
 		  </div>
+		  <Link href='/'>
+			<a className="btn btn-back">Go Back</a>
+		  </Link>
 		</>
 		)
 }

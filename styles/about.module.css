@@ -1,0 +1,20 @@
+.aboutContent {
+	display: flex;
+    justify-content: center;
+	margin-top: 1.5rem;
+}
+
+.aboutContentImage {
+	max-width: 100%;
+}
+
+.imageContainer {
+	flex-basis: 40%;
+}
+
+.aboutContentText {
+	display: inline-block;
+    padding: 0 1rem;
+    margin: 0;
+    flex-basis: 60%;
+}

@@ -37,6 +37,21 @@ header a {
   color: #fff;
 }
 
+.header-links{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.header-links > li {
+	margin: 0 2rem;
+}
+
+.header-links > li:hover {
+	text-decoration: underline;
+	text-underline-offset: .5em;
+}
+
 .container {
   max-width: 768px;
   margin: auto;
@@ -86,6 +101,7 @@ header a {
 
 .card-page {
   padding: 15px 30px;
+  margin-bottom: 1rem;
 }
 
 .post-title {
@@ -93,9 +109,8 @@ header a {
 }
 
 .post-date {
-  background: #f4f4f4;
-  margin-bottom: 20px;
-  padding: 3px 10px;
+    margin-bottom: 20px;
+    font-size: .9rem;
 }
 
 .post-body ul,
@@ -118,3 +133,4 @@ ol {
     grid-template-columns: 1fr;
   }
 }
+
