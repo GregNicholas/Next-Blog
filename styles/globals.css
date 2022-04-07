@@ -46,7 +46,7 @@ img {
 .header-links{
 	display: inline-flex;
 	align-items: center;
-	min-width: 300px;
+	min-width: 333px;
     justify-content: space-between;
 	margin: 0 2rem 0 0;
 	overflow: hidden;
