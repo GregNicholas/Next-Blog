@@ -34,15 +34,18 @@ img {
     height: 50px;
 }
 
-.header-links{
-	display: flex;
-	align-items: center;
-	float: right;
-	margin: 0px;
-	overflow: hidden;
+.logo {
+	display: inline;
+	margin-right: 2rem;
 }
 
-.header-links {
+.header-links{
+	display: inline-flex;
+	align-items: center;
+	min-width: 300px;
+    justify-content: space-between;
+	margin: 0px;
+	overflow: hidden;
 	list-style-type: none;
 	padding-right: 10px;
 	transition: all .5s linear;
@@ -157,9 +160,9 @@ ol {
 		position: fixed;
 		transition: all 1s ease;
 	}
-	
-}
-.closed {
+	.closed-mobile {
 		display: none;
 		background-color: red;
 	}
+	
+}

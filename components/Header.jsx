@@ -9,17 +9,19 @@ const Header = () => {
         setHamburgerOpen(!hamburgerOpen)
     }
 	
-	let isLinksClosed = hamburgerOpen ? "" : "closed";
+	let isLinksClosed = hamburgerOpen ? "" : "closed-mobile";
 	
 	return (
 	  <header>
 		<nav className="navigation">
+			<div className="logo">
+			<Link href='/' passHref>
+				  <h1 style={{display: "inline", cursor: "pointer"}}>WebDev Blog</h1>
+			</Link>
+			</div>
+			
 			<ul className={`header-links ${isLinksClosed}`}>
-			  <li>
-				<Link href='/' passHref>
-				  <h2 style={{cursor: "pointer", width: "fit-content"}}>WebDev Blog</h2>
-				</Link>
-			  </li>
+			 
 			  <li>
 				<Link href='/gallery' passHref>
 				  <h3 style={{cursor: "pointer", width: "fit-content"}}>Gallery</h3>
